@@ -39,7 +39,7 @@ module.exports = {
       writeToDisk: true
     },
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, 'public')
     },
     historyApiFallback: true,
     compress: true,
