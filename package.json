@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "test": "jest --passWithNoTests --no-cache --runInBand",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint 'src/**' --fix"
   },
   "keywords": [],
   "author": "",

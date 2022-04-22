@@ -1,5 +1,5 @@
-import React from "react";
-import Styles from "./teste.scss";
+import React from 'react'
+import Styles from './teste.scss'
 
 const Teste: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Teste: React.FC = () => {
       <form className={Styles.form} action=""></form>
       <footer className={Styles.footer}></footer>
     </div>
-  );
-};
+  )
+}
 
-export default Teste;
+export default Teste
