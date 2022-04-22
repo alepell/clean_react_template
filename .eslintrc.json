@@ -9,7 +9,7 @@
       "plugin:react/recommended"
     ],
     "env": {
-      "cypress/globals": true
+
     },
     "plugins": ["react"],
     "parserOptions": {
