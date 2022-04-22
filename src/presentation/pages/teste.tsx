@@ -4,7 +4,7 @@ import Styles from './teste.scss'
 const Teste: React.FC = () => {
   return (
     <div className={Styles.teste}>
-      HELLO
+      HELLO WORLD
       <header className={Styles.header}></header>
       <form className={Styles.form} action=""></form>
       <footer className={Styles.footer}></footer>

@@ -1,5 +1,3 @@
-const { createSemanticDiagnosticsBuilderProgram } = require("typescript")
-
 module.exports = {
     roots: ['<rootDir>/src'],
 

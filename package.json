@@ -8,6 +8,7 @@
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "prepare": "husky install",
     "lint": "eslint .",
+    "test:staged": "npm test -- --findRelatedTests",
     "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
